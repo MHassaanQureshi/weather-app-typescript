@@ -1,0 +1,762 @@
+body{
+    background-image: url("images/1920-white-puffy-clouds-and-blue-sky-during-daytime.jpeg");
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    display: flex;
+}
+.top-part{
+    display: flex;
+
+}
+
+#search-bar{
+    width: 600px;
+    margin-left: 20rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: none;
+    height: 40px;
+    margin-top:4rem;
+}
+#search-but{
+    background-color: transparent;
+    border: none;
+    margin-left: 2rem;
+    margin-top: -23.5rem;
+    
+}
+#search-but img{
+    width: 30px;
+    height: 30px;
+}
+
+#search-but img:hover{
+    cursor: pointer;
+}
+
+.type{
+    display: flex;
+}
+#weather-type{
+    margin-left: -53rem;
+    margin-top: 14rem;
+    font-size: 5rem;
+}
+.temperature{
+    display: flex;
+}
+#temperature-read{
+    margin-left: 10rem;
+    margin-top: -4rem;
+    font-size: 3rem;
+
+}
+#centi{
+   
+    margin-top: -3.4rem;
+    font-size: 2.3rem;
+}
+.city-name{
+    display: flex;
+}
+#location-logo{
+    margin-left: -60rem;
+    width: 40px;
+    height: 40px;
+    margin-top: 12rem;
+}
+#city-name{
+    margin-left: 0.4rem;
+    font-size: 30px;
+    margin-top: 12rem;
+}
+
+.footer{
+    display: flex;
+}
+#humidity-logo{
+    margin-left: -25rem;
+    width: 50px;
+    height: 50px;
+    margin-top: 25rem;
+}
+#humidity{
+    margin-left: -26.5rem;
+    
+    margin-top: 1rem;
+}
+#air-logo{
+    margin-left: -12rem;
+    width: 50px;
+    height: 50px;
+    margin-top:-16rem;
+    margin-bottom: 5rem;
+}
+#air{
+    margin-left: -12rem;
+   margin-top: -3.5rem;
+   
+    
+}
+.max-min{
+    margin-left: -75rem;
+    margin-top: -8rem;
+}
+#max{
+    font-size: 30px;
+    margin-top: -1.4rem;
+}
+#min{
+    font-size: 30px;
+    margin-top: -1.3rem;
+}
+#min-text{
+    margin-top: -1.4rem;
+}
+@media (max-width:376px)
+    {
+    body{
+        background: url("images/e1yh_e7nt_161228.jpg");
+        font-family:Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        overflow-x: hidden;
+        width: 376px;
+    }
+    .top-part{
+        display: flex;
+    
+    }
+    
+    #search-bar{
+        width: 280px;
+        margin-left: 1rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: none;
+        height: 40px;
+        margin-top:4rem;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+        margin-left: .6rem;
+        margin-top: -35rem;
+        
+    }
+    #search-but img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #search-but img:hover{
+        cursor: pointer;
+    }
+    
+    .type{
+        display: flex;
+    }
+    #weather-type{
+        margin-left: -18rem;
+        margin-top: 15rem;
+        font-size: 5rem;
+    }
+    .temperature{
+        display: flex;
+        
+    }
+    #temperature-read{
+       margin-left: -18rem;
+        margin-top: 10rem;
+        font-size: 5rem;
+    
+    }
+    #centi{
+        
+        margin-top: 11rem;
+        
+        font-size: 4rem;
+    }
+    .city-name{
+        display: flex;
+    }
+    #location-logo{
+        margin-left: -15rem;
+        width: 40px;
+        height: 40px;
+        margin-top: 20rem;
+    }
+    #city-name{
+        margin-left: 0.4rem;
+        font-size: 30px;
+        margin-top: 20rem;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    #humidity-logo{
+        margin-left: -18.5rem;
+        width: 50px;
+        height: 50px;
+        margin-top: 28rem;
+    }
+    #humidity{
+        margin-left: -20.5rem;
+        
+        margin-top: 1rem;
+    }
+    #air-logo{
+        margin-left: -6rem;
+        width: 50px;
+        height: 50px;
+        margin-top:-16rem;
+        margin-bottom: 5rem;
+    }
+    #air{
+        margin-left: -7rem;
+       margin-top: -3.5rem;
+       
+        
+    }
+    .max-min{
+        margin-left: -20rem;
+        margin-top: 2rem;
+    }
+    #max{
+        font-size: 30px;
+        margin-top: -1.4rem;
+    }
+    #min{
+        font-size: 30px;
+        margin-top: -1.3rem;
+    }
+    #min-text{
+        margin-top: -1.4rem;
+    }
+}
+@media (max-width:480px)
+    {
+    body{
+        background: url("images/e1yh_e7nt_161228.jpg");
+        font-family:Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        overflow-x: hidden;
+        width: 376px;
+    }
+    .top-part{
+        display: flex;
+    
+    }
+    
+    #search-bar{
+        width: 280px;
+        margin-left: 1rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: none;
+        height: 40px;
+        margin-top:4rem;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+        margin-left: .6rem;
+        margin-top: -35rem;
+        
+    }
+    #search-but img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #search-but img:hover{
+        cursor: pointer;
+    }
+    
+    .type{
+        display: flex;
+    }
+    #weather-type{
+        margin-left: -18rem;
+        margin-top: 15rem;
+        font-size: 5rem;
+    }
+    .temperature{
+        display: flex;
+        
+    }
+    #temperature-read{
+       margin-left: -18rem;
+        margin-top: 10rem;
+        font-size: 5rem;
+    
+    }
+    #centi{
+        
+        margin-top: 11rem;
+        
+        font-size: 4rem;
+    }
+    .city-name{
+        display: flex;
+    }
+    #location-logo{
+        margin-left: -15rem;
+        width: 40px;
+        height: 40px;
+        margin-top: 20rem;
+    }
+    #city-name{
+        margin-left: 0.4rem;
+        font-size: 30px;
+        margin-top: 20rem;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    #humidity-logo{
+        margin-left: -18.5rem;
+        width: 50px;
+        height: 50px;
+        margin-top: 28rem;
+    }
+    #humidity{
+        margin-left: -20.5rem;
+        
+        margin-top: 1rem;
+    }
+    #air-logo{
+        margin-left: -6rem;
+        width: 50px;
+        height: 50px;
+        margin-top:-16rem;
+        margin-bottom: 5rem;
+    }
+    #air{
+        margin-left: -7rem;
+       margin-top: -3.5rem;
+       
+        
+    }
+    .max-min{
+        margin-left: -20rem;
+        margin-top: 2rem;
+    }
+    #max{
+        font-size: 30px;
+        margin-top: -1.4rem;
+    }
+    #min{
+        font-size: 30px;
+        margin-top: -1.3rem;
+    }
+    #min-text{
+        margin-top: -1.4rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 820px) 
+    {
+    body{
+        background: url("images/e1yh_e7nt_161228.jpg");
+        font-family:Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        overflow-x: hidden;
+        
+    }
+    .top-part{
+        display: flex;
+    
+    }
+    
+    #search-bar{
+        width: 400px;
+        margin-left: 5rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: none;
+        height: 40px;
+        margin-top:4rem; 
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+        margin-left: .8rem;
+        
+        
+    }
+    #search-but img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30rem;
+    }
+    
+    #search-but img:hover{
+        cursor: pointer;
+    }
+    
+    .type{
+        display: flex;
+    }
+    #weather-type{
+        margin-left: -25rem;
+        margin-top: 15rem;
+        font-size: 5rem;
+    }
+    .temperature{
+        display: flex;
+        
+    }
+    #temperature-read{
+       margin-left: -28rem;
+        margin-top: 10rem;
+        font-size: 5rem;
+    
+    }
+    #centi{
+        
+        margin-top: 11rem;
+        
+        font-size: 4rem;
+    }
+    .city-name{
+        display: flex;
+    }
+    #location-logo{
+        margin-left: -18rem;
+        width: 40px;
+        height: 40px;
+        margin-top: 22rem;
+    }
+    #city-name{
+        margin-left: 0.4rem;
+        font-size: 30px;
+        margin-top: 22rem;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    #humidity-logo{
+        margin-left: -28rem;
+        width: 80px;
+        height: 80px;
+        margin-top: 28rem;
+    }
+    #humidity{
+        margin-left: -27.5rem;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    #air-logo{
+        margin-left: -8rem;
+        width: 80px;
+        height: 80px;
+        margin-top:-16rem;
+        margin-bottom: 5rem;
+    }
+    #air{
+        margin-left: -8rem;
+       margin-top: -4rem;
+       font-size: 1.5rem;
+       
+        
+    }
+    .max-min{
+        margin-left: -30rem;
+        margin-top: 2rem;
+    }
+    #max{
+        font-size: 4rem;
+        margin-top: -1.4rem;
+    }
+    #max-text{
+        font-size: 2.4rem;
+    }
+    #min{
+        font-size: 4rem;
+        margin-top: -1.3rem;
+    }
+    #min-text{
+        margin-top: -1.4rem;
+        font-size: 2.4rem;
+    }
+} 
+/* @media (max-width:820px)
+    {
+    body{
+        background-color: aqua;
+        font-family:Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        background-image: none;
+        
+    }
+    .top-part{
+        display: flex;
+    
+    }
+    
+    #search-bar{
+        width: 400px;
+        margin-left: 10rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: none;
+        height: 40px;
+        margin-top:4rem;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+        margin-left: .8rem;
+        
+        
+    }
+    #search-but img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30rem;
+    }
+    
+    #search-but img:hover{
+        cursor: pointer;
+    }
+    
+    .type{
+        display: flex;
+    }
+    #weather-type{
+        margin-left: -25rem;
+        margin-top: 15rem;
+        font-size: 5rem;
+    }
+    .temperature{
+        display: flex;
+        
+    }
+    #temperature-read{
+       margin-left: -28rem;
+        margin-top: 10rem;
+        font-size: 5rem;
+    
+    }
+    #centi{
+        
+        margin-top: 11rem;
+        
+        font-size: 4rem;
+    }
+    .city-name{
+        display: flex;
+    }
+    #location-logo{
+        margin-left: -18rem;
+        width: 40px;
+        height: 40px;
+        margin-top: 22rem;
+    }
+    #city-name{
+        margin-left: 0.4rem;
+        font-size: 30px;
+        margin-top: 22rem;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    #humidity-logo{
+        margin-left: -26rem;
+        width: 80px;
+        height: 80px;
+        margin-top: 28rem;
+    }
+    #humidity{
+        margin-left: -27.5rem;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    #air-logo{
+        margin-left: -8rem;
+        width: 80px;
+        height: 80px;
+        margin-top:-16rem;
+        margin-bottom: 5rem;
+    }
+    #air{
+        margin-left: -8rem;
+       margin-top: -4rem;
+       font-size: 1.5rem;
+       
+        
+    }
+    .max-min{
+        margin-left: -30rem;
+        margin-top: 2rem;
+    }
+    #max{
+        font-size: 4rem;
+        margin-top: -1.4rem;
+    }
+    #max-text{
+        font-size: 2.4rem;
+    }
+    #min{
+        font-size: 4rem;
+        margin-top: -1.3rem;
+    }
+    #min-text{
+        margin-top: -1.4rem;
+        font-size: 2.4rem;
+    }
+}*/
+@media (min-width: 820px) and (max-width: 1024px) 
+    {
+    body{
+        background: url("images/e1yh_e7nt_161228.jpg");
+        font-family:Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        overflow-x: hidden;
+        
+    }
+    .top-part{
+        display: flex;
+    
+    }
+    
+    #search-bar{
+        width: 600px;
+        margin-left: 10rem;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: none;
+        height: 40px;
+        margin-top:4rem;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+        margin-left: .6rem;
+       
+        
+    }
+    #search-but img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 40rem;
+    }
+    
+    #search-but img:hover{
+        cursor: pointer;
+    }
+    
+    .type{
+        display: flex;
+    }
+    #weather-type{
+        margin-left: -30rem;
+        margin-top: 20rem;
+        font-size: 5rem;
+    }
+    .temperature{
+        display: flex;
+        
+    }
+    #temperature-read{
+       margin-left: -35rem;
+        margin-top: 15rem;
+        font-size: 5rem;
+    
+    }
+    #centi{
+        
+        margin-top: 16rem;
+        
+        font-size: 4rem;
+    }
+    .city-name{
+        display: flex;
+    }
+    #location-logo{
+        margin-left: -20rem;
+        width: 50px;
+        height: 50px;
+        margin-top: 26rem;
+    }
+    #city-name{
+        margin-left: 0.4rem;
+        font-size: 50px;
+        margin-top: 26rem;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    #humidity-logo{
+        margin-left: -42rem;
+        width: 90px;
+        height: 90px;
+        margin-top: 35rem;
+    }
+    #humidity{
+        margin-left: -43rem;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    #air-logo{
+        margin-left: -8rem;
+        width: 90px;
+        height: 90px;
+        margin-top:-16rem;
+        margin-bottom: 7.5rem;
+    }
+    #air{
+        margin-left: -10rem;
+       margin-top: -5rem;
+       font-size: 2.5rem;
+       
+        
+    }
+    .max-min{
+        margin-left: -40rem;
+        margin-top: 2rem;
+    }
+    #max{
+        font-size: 4rem;
+        margin-top: -1.4rem;
+    }
+    #max-text{
+        font-size: 2.4rem;
+    }
+    #min{
+        font-size: 4rem;
+        margin-top: -1.3rem;
+    }
+    #min-text{
+        margin-top: -1.4rem;
+        font-size: 2.4rem;
+    }
+}
